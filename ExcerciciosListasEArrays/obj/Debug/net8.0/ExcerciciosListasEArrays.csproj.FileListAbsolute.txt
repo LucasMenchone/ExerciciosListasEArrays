@@ -12,3 +12,18 @@ C:\Users\lucas\source\repos\ExcerciciosListasEArrays\ExcerciciosListasEArrays\ob
 C:\Users\lucas\source\repos\ExcerciciosListasEArrays\ExcerciciosListasEArrays\obj\Debug\net8.0\ExcerciciosListasEArrays.pdb
 C:\Users\lucas\source\repos\ExcerciciosListasEArrays\ExcerciciosListasEArrays\obj\Debug\net8.0\ExcerciciosListasEArrays.genruntimeconfig.cache
 C:\Users\lucas\source\repos\ExcerciciosListasEArrays\ExcerciciosListasEArrays\obj\Debug\net8.0\ref\ExcerciciosListasEArrays.dll
+C:\Users\lucas\Desktop\projetos estudo .net c#\ExcerciciosListasEArrays\ExcerciciosListasEArrays\bin\Debug\net8.0\ExcerciciosListasEArrays.exe
+C:\Users\lucas\Desktop\projetos estudo .net c#\ExcerciciosListasEArrays\ExcerciciosListasEArrays\bin\Debug\net8.0\ExcerciciosListasEArrays.deps.json
+C:\Users\lucas\Desktop\projetos estudo .net c#\ExcerciciosListasEArrays\ExcerciciosListasEArrays\bin\Debug\net8.0\ExcerciciosListasEArrays.runtimeconfig.json
+C:\Users\lucas\Desktop\projetos estudo .net c#\ExcerciciosListasEArrays\ExcerciciosListasEArrays\bin\Debug\net8.0\ExcerciciosListasEArrays.dll
+C:\Users\lucas\Desktop\projetos estudo .net c#\ExcerciciosListasEArrays\ExcerciciosListasEArrays\bin\Debug\net8.0\ExcerciciosListasEArrays.pdb
+C:\Users\lucas\Desktop\projetos estudo .net c#\ExcerciciosListasEArrays\ExcerciciosListasEArrays\obj\Debug\net8.0\ExcerciciosListasEArrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Desktop\projetos estudo .net c#\ExcerciciosListasEArrays\ExcerciciosListasEArrays\obj\Debug\net8.0\ExcerciciosListasEArrays.AssemblyInfoInputs.cache
+C:\Users\lucas\Desktop\projetos estudo .net c#\ExcerciciosListasEArrays\ExcerciciosListasEArrays\obj\Debug\net8.0\ExcerciciosListasEArrays.AssemblyInfo.cs
+C:\Users\lucas\Desktop\projetos estudo .net c#\ExcerciciosListasEArrays\ExcerciciosListasEArrays\obj\Debug\net8.0\ExcerciciosListasEArrays.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Desktop\projetos estudo .net c#\ExcerciciosListasEArrays\ExcerciciosListasEArrays\obj\Debug\net8.0\ExcerciciosListasEArrays.sourcelink.json
+C:\Users\lucas\Desktop\projetos estudo .net c#\ExcerciciosListasEArrays\ExcerciciosListasEArrays\obj\Debug\net8.0\ExcerciciosListasEArrays.dll
+C:\Users\lucas\Desktop\projetos estudo .net c#\ExcerciciosListasEArrays\ExcerciciosListasEArrays\obj\Debug\net8.0\refint\ExcerciciosListasEArrays.dll
+C:\Users\lucas\Desktop\projetos estudo .net c#\ExcerciciosListasEArrays\ExcerciciosListasEArrays\obj\Debug\net8.0\ExcerciciosListasEArrays.pdb
+C:\Users\lucas\Desktop\projetos estudo .net c#\ExcerciciosListasEArrays\ExcerciciosListasEArrays\obj\Debug\net8.0\ExcerciciosListasEArrays.genruntimeconfig.cache
+C:\Users\lucas\Desktop\projetos estudo .net c#\ExcerciciosListasEArrays\ExcerciciosListasEArrays\obj\Debug\net8.0\ref\ExcerciciosListasEArrays.dll

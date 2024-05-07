@@ -7,6 +7,7 @@ public class AlunosArray
 
         public void CadastraAlunos()
         {
+            Console.WriteLine("###Bem vindo, cadastre o nome e a nota de 5 alunos ao digitar o nome abaixo###");
             for (int i = 0; i < 4; i++)
             {
                 Console.Write($"\nAluno {i + 1}: ");
@@ -50,7 +51,8 @@ public class AlunosMatriz
 
     public void CadastrarAlunos()
     {
-        for(int i = 0; i < matrizAlunos.GetLength(0); i++)
+        Console.WriteLine("###Bem vindo, cadastre o nome e a nota de 10 alunos ao digitar o nome abaixo###");
+        for (int i = 0; i < matrizAlunos.GetLength(0); i++)
         {
             for(int j = 0; j < matrizAlunos.GetLength(1); j++)
             {

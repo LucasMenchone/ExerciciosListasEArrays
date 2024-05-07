@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lucas\\source\\repos\\ExcerciciosListasEArrays\\ExcerciciosListasEArrays\\ExcerciciosListasEArrays.csproj",
+      "projectUniqueName": "C:\\Users\\lucas\\Desktop\\projetos estudo .net c#\\ExcerciciosListasEArrays\\ExcerciciosListasEArrays\\ExcerciciosListasEArrays.csproj",
       "projectName": "ExcerciciosListasEArrays",
-      "projectPath": "C:\\Users\\lucas\\source\\repos\\ExcerciciosListasEArrays\\ExcerciciosListasEArrays\\ExcerciciosListasEArrays.csproj",
+      "projectPath": "C:\\Users\\lucas\\Desktop\\projetos estudo .net c#\\ExcerciciosListasEArrays\\ExcerciciosListasEArrays\\ExcerciciosListasEArrays.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lucas\\source\\repos\\ExcerciciosListasEArrays\\ExcerciciosListasEArrays\\obj\\",
+      "outputPath": "C:\\Users\\lucas\\Desktop\\projetos estudo .net c#\\ExcerciciosListasEArrays\\ExcerciciosListasEArrays\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
