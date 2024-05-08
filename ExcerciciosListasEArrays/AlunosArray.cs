@@ -75,3 +75,33 @@ public class AlunosMatriz
         }
     }
 }
+
+public class AlunosList
+{
+    public static List<string> nome_alunos = new()
+    {
+        "joão paulo","vinicius marques","bruno mathias","maria madalena","fernando pessoa","igor mendes"
+    };
+
+    public void PesquisaAlunos(int escolha, string dado)
+    {
+        string? nomeEncontrado;
+        switch (escolha)
+        {
+
+            case 1:
+                nomeEncontrado = nome_alunos.Find(f => f.Contains(dado));
+                Console.WriteLine($"Cadastro Encontrado: {nomeEncontrado}");
+                break;
+
+            case 2:
+                nomeEncontrado = nome_alunos.Find(f => f.StartsWith(dado));
+                Console.WriteLine($"Cadastro Encontrado: {nomeEncontrado}");
+                break;
+
+            default:
+                Console.WriteLine("Escolha somente 1 ou 2");
+                break;
+        }   
+    }
+}
