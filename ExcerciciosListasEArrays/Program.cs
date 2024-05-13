@@ -25,6 +25,12 @@ alunosMatriz.ExibirAlunos();
 */
 
 AlunosList lista = new AlunosList();
+
+AlunosList.ExibeAlunos();
+AlunosList.MediaNotas();
+
+Console.WriteLine("#######################################");
+
 Console.WriteLine("Seja bem vindo ao banco de alunos cadastrados\nDigite 1 para procurar por um aluno por nome, e 2 para procurar por um aluno por inicial");
 int escolha = Convert.ToInt32(Console.ReadLine());
 
@@ -41,4 +47,4 @@ else if (escolha == 2)
     dadoFornecido = Console.ReadLine();
 }
 
-lista.PesquisaAlunos(escolha, dadoFornecido);
+lista.PesquisaAluno(escolha, dadoFornecido);

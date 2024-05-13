@@ -1,4 +1,8 @@
-﻿namespace ExcerciciosListasEArrays
+﻿using ExcerciciosListasEArrays;
+using System.Numerics;
+using System.Xml;
+
+namespace ExcerciciosListasEArrays
 {
 public class AlunosArray
     {
@@ -78,37 +82,73 @@ public class AlunosMatriz
 
 public class AlunosList
 {
-    public static List<string> nomeAlunos = new()
+    public static List<Aluno> listaAlunos = new()
     {
-        "joão paulo","vinicius marques","bruno mathias","maria madalena","fernando pessoa","igor mendes"
-    };
-    public static List<double> notasAlunos = new()
-    {
-        7,8,5,6,7,10
-    };
+      new Aluno{Nome= "MARIA",Nota=8.75 },
+      new Aluno{Nome= "MANOEL",Nota=6.95 },
+      new Aluno{Nome= "AMANDA",Nota=7.25 },
+      new Aluno{Nome= "CARLOS",Nota=6.55 },
+      new Aluno{Nome= "JAIME",Nota=8.50 },
+      new Aluno{Nome= "DEBORA",Nota=5.95 },
+      new Aluno{Nome= "ALICIA",Nota=9.25 },
+      new Aluno{Nome= "SANDRA",Nota=5.55 },
+      new Aluno{Nome= "MARTA",Nota=7.85 },
+      new Aluno{Nome= "SUELI",Nota=9.15 }
 
-    public void PesquisaAlunos(int escolha, string dado)
-    {  
-        string? nomeEncontrado;
-        int nomeIndex;
- 
+    };  
+
+    public static List<Aluno> GetAlunos()
+    {
+        return listaAlunos;
+    }
+
+    public static void ExibeAlunos()
+    {
+        foreach (var item in listaAlunos)
+        {
+            Console.WriteLine($"Nome: {item.Nome},\t Nota: {item.Nota.ToString("f")}");
+        }
+    }
+    public void CadastraNovoAluno(string? nome, double nota)
+    {
+        listaAlunos.Add(new Aluno { Nome = nome.ToUpper(), Nota = nota });
+    }
+
+    public static void MediaNotas()
+    {
+        double media = 0.0;
+
+        foreach (var item in listaAlunos)
+        {
+            media += item.Nota;
+        }
+
+        int totalAlunos = listaAlunos.Count;
+        Console.WriteLine($"O Número total de alunos é: {totalAlunos}" +
+            $"\nA média das notas de todos os alunos é: {(media / totalAlunos).ToString("f")}");
+
+    }
+
+    public void PesquisaAluno(int escolha, string dado)
+    {
+        List<Aluno> listaDeAlunos = GetAlunos();
+        Aluno? alunoEncontrado;
+
         switch (escolha)
         {
 
             case 1:
-                nomeEncontrado = nomeAlunos.Find(f => f.Contains(dado));
-                nomeIndex = nomeAlunos.FindIndex(f => f.Contains(dado));
+                alunoEncontrado = listaDeAlunos.Find(f=> f.Nome.Equals(dado.ToUpper()));
                 Console.WriteLine($"Cadastro Encontrado " +
-                    $"\nAluno: {nomeEncontrado}" +
-                    $"\nNota: {notasAlunos[nomeIndex]}");
+                    $"\nAluno: {alunoEncontrado.Nome ?? "Nome não encontrado"}" +
+                    $"\nNota: {alunoEncontrado.Nota}");
                 break;
 
             case 2:
-                nomeEncontrado = nomeAlunos.Find(f => f.StartsWith(dado));
-                nomeIndex = nomeAlunos.FindIndex(f => f.StartsWith(dado));
+                alunoEncontrado = listaAlunos.Find(f => f.Nome.StartsWith(dado.ToUpper()));
                 Console.WriteLine($"Cadastro Encontrado " +
-                    $"\nAluno: {nomeEncontrado}" +
-                    $"\nNota: {notasAlunos[nomeIndex]}");
+                    $"\nAluno: {alunoEncontrado.Nome ?? "Nome não encontrado"}" +
+                    $"\nNota: {alunoEncontrado.Nota}");
                 break;
 
             default:
@@ -117,9 +157,5 @@ public class AlunosList
         }
     }
 
-    public void CadastraNovoAluno(string nome, double nota)
-    {
-        nomeAlunos.Add(nome);
-        notasAlunos.Add(nota);
-    }
+
 }
