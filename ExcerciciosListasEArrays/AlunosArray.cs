@@ -78,30 +78,48 @@ public class AlunosMatriz
 
 public class AlunosList
 {
-    public static List<string> nome_alunos = new()
+    public static List<string> nomeAlunos = new()
     {
         "joão paulo","vinicius marques","bruno mathias","maria madalena","fernando pessoa","igor mendes"
     };
+    public static List<double> notasAlunos = new()
+    {
+        7,8,5,6,7,10
+    };
 
     public void PesquisaAlunos(int escolha, string dado)
-    {
+    {  
         string? nomeEncontrado;
+        int nomeIndex;
+ 
         switch (escolha)
         {
 
             case 1:
-                nomeEncontrado = nome_alunos.Find(f => f.Contains(dado));
-                Console.WriteLine($"Cadastro Encontrado: {nomeEncontrado}");
+                nomeEncontrado = nomeAlunos.Find(f => f.Contains(dado));
+                nomeIndex = nomeAlunos.FindIndex(f => f.Contains(dado));
+                Console.WriteLine($"Cadastro Encontrado " +
+                    $"\nAluno: {nomeEncontrado}" +
+                    $"\nNota: {notasAlunos[nomeIndex]}");
                 break;
 
             case 2:
-                nomeEncontrado = nome_alunos.Find(f => f.StartsWith(dado));
-                Console.WriteLine($"Cadastro Encontrado: {nomeEncontrado}");
+                nomeEncontrado = nomeAlunos.Find(f => f.StartsWith(dado));
+                nomeIndex = nomeAlunos.FindIndex(f => f.StartsWith(dado));
+                Console.WriteLine($"Cadastro Encontrado " +
+                    $"\nAluno: {nomeEncontrado}" +
+                    $"\nNota: {notasAlunos[nomeIndex]}");
                 break;
 
             default:
                 Console.WriteLine("Escolha somente 1 ou 2");
                 break;
-        }   
+        }
+    }
+
+    public void CadastraNovoAluno(string nome, double nota)
+    {
+        nomeAlunos.Add(nome);
+        notasAlunos.Add(nota);
     }
 }
