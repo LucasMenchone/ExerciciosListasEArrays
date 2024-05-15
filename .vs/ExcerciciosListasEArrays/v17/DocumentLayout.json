@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{C264B3F2-3FC9-4301-9800-178E0215326B}|ExcerciciosListasEArrays\\ExcerciciosListasEArrays.csproj|solutionrelative:excercicioslistasearrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C264B3F2-3FC9-4301-9800-178E0215326B}|ExcerciciosListasEArrays\\ExcerciciosListasEArrays.csproj|c:\\users\\lucas\\desktop\\projetos estudo .net c#\\excercicioslistasearrays\\excercicioslistasearrays\\alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C264B3F2-3FC9-4301-9800-178E0215326B}|ExcerciciosListasEArrays\\ExcerciciosListasEArrays.csproj|solutionrelative:excercicioslistasearrays\\alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C264B3F2-3FC9-4301-9800-178E0215326B}|ExcerciciosListasEArrays\\ExcerciciosListasEArrays.csproj|c:\\users\\lucas\\desktop\\projetos estudo .net c#\\excercicioslistasearrays\\excercicioslistasearrays\\arrayfruits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C264B3F2-3FC9-4301-9800-178E0215326B}|ExcerciciosListasEArrays\\ExcerciciosListasEArrays.csproj|solutionrelative:excercicioslistasearrays\\arrayfruits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C264B3F2-3FC9-4301-9800-178E0215326B}|ExcerciciosListasEArrays\\ExcerciciosListasEArrays.csproj|c:\\users\\lucas\\desktop\\projetos estudo .net c#\\excercicioslistasearrays\\excercicioslistasearrays\\alunosarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C264B3F2-3FC9-4301-9800-178E0215326B}|ExcerciciosListasEArrays\\ExcerciciosListasEArrays.csproj|solutionrelative:excercicioslistasearrays\\alunosarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C264B3F2-3FC9-4301-9800-178E0215326B}|ExcerciciosListasEArrays\\ExcerciciosListasEArrays.csproj|c:\\users\\lucas\\desktop\\projetos estudo .net c#\\excercicioslistasearrays\\excercicioslistasearrays\\alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C264B3F2-3FC9-4301-9800-178E0215326B}|ExcerciciosListasEArrays\\ExcerciciosListasEArrays.csproj|solutionrelative:excercicioslistasearrays\\alunos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,6 +39,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ArrayFruits.cs",
+              "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\projetos estudo .net c#\\ExcerciciosListasEArrays\\ExcerciciosListasEArrays\\ArrayFruits.cs",
+              "RelativeDocumentMoniker": "ExcerciciosListasEArrays\\ArrayFruits.cs",
+              "ToolTip": "C:\\Users\\lucas\\Desktop\\projetos estudo .net c#\\ExcerciciosListasEArrays\\ExcerciciosListasEArrays\\ArrayFruits.cs",
+              "RelativeToolTip": "ExcerciciosListasEArrays\\ArrayFruits.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-15T01:15:29.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Alunos.cs",
               "DocumentMoniker": "C:\\Users\\lucas\\Desktop\\projetos estudo .net c#\\ExcerciciosListasEArrays\\ExcerciciosListasEArrays\\Alunos.cs",
               "RelativeDocumentMoniker": "ExcerciciosListasEArrays\\Alunos.cs",
@@ -53,7 +70,7 @@
               "RelativeDocumentMoniker": "ExcerciciosListasEArrays\\AlunosArray.cs",
               "ToolTip": "C:\\Users\\lucas\\Desktop\\projetos estudo .net c#\\ExcerciciosListasEArrays\\ExcerciciosListasEArrays\\AlunosArray.cs",
               "RelativeToolTip": "ExcerciciosListasEArrays\\AlunosArray.cs",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAkwJMAAABbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJMAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T13:40:20.743Z",
               "EditorCaption": ""
@@ -66,7 +83,7 @@
               "RelativeDocumentMoniker": "ExcerciciosListasEArrays\\Program.cs",
               "ToolTip": "C:\\Users\\lucas\\Desktop\\projetos estudo .net c#\\ExcerciciosListasEArrays\\ExcerciciosListasEArrays\\Program.cs",
               "RelativeToolTip": "ExcerciciosListasEArrays\\Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACQAAAAXAAAA",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAwwGsAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-06T12:47:55.434Z",
               "EditorCaption": ""
